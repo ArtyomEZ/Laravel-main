@@ -1,0 +1,56 @@
+/* Styles généraux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222; /* Gris foncé */
+    margin: 0;
+    padding: 0;
+    color: #eee; /* Gris clair */
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #eee; /* Gris clair */
+}
+
+/* Styles du tableau */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #555; /* Gris foncé */
+    text-align: left;
+    color: #eee; /* Gris clair */
+}
+
+th {
+    background-color: #333; /* Gris foncé */
+}
+
+/* Styles du lien "See more" */
+a {
+    color: #007bff; /* Bleu */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles du bouton "Ajouter" */
+.add-button {
+    background-color: #28a745; /* Vert */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.add-button:hover {
+    background-color: #218838; /* Vert foncé */
+}
